@@ -37,7 +37,7 @@ public class EncryptionTest {
     }
 
     private byte[] randomBytes() {
-        byte[] bytes = new byte[1 + random.nextInt(100)];
+        byte[] bytes = new byte[1 + random.nextInt(10000)];
         random.nextBytes(bytes);
 
         return bytes;
